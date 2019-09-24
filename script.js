@@ -15,23 +15,26 @@
 
 //   answer to question 2
 
-let triangleEmoji = ""
-let numberOfRows = 8
+// let triangleEmoji = ""
+// let numberOfRows = 8
 
-for (let i = 0; i < numberOfRows; i++) {
-    triangleEmoji += "🔼"
-    console.log(triangleEmoji);
-}
+// for (let i = 0; i < numberOfRows; i++) {
+//     triangleEmoji += "🔼"
+//     console.log(triangleEmoji);
+// }
 
 // answer to question 3 
 
-// let triangleEmoji = ""
-// let numberOfRows = 7
 
-// for (let i = 0; i < numberOfRows; i--) {
-//     triangleEmoji -= 8
-//     console.log(triangleEmoji);
-    
+numberOfPizzas = 7
+numberOfRows = 7
+pizzas = ""
+for(i = 0; i < numberOfRows ; i++) {
+   for(let i = 0; i < numberOfPizzas; i++) {
+       pizzas += "V"
+}
+pizzas += "\n"
+numberOfPizzas -= 1
+} console.log(pizzas)
 
-// }
 
